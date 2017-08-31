@@ -21,6 +21,8 @@ reg.register('service.ruby.run', {
         var remoteTempPath = config.remoteTempPath;
         var isJob = ctx.stash("job_dir");
         var rubyPath = config.rubyPath;
+        var fileName = "clarive-ruby-code-" + Date.now() + ".rb";
+
 
         function remoteCommand(params, command, server, errors) {
             var output = reg.launch('service.scripting.remote', {
@@ -55,10 +57,10 @@ reg.register('service.ruby.run', {
 
 
         if (isJob) {
-            filePath = path.join(isJob, "ruby-code.rb");
+            filePath = path.join(isJob, fileName);
             fs.createFile(filePath, config.code);
         } else {
-            filePath = path.join(CLARIVE_TEMP, "ruby-code.rb");
+            filePath = path.join(CLARIVE_TEMP, fileName);
             fs.createFile(filePath, config.code);
         }
 
@@ -72,7 +74,7 @@ reg.register('service.ruby.run', {
         }
 
         shipFiles(server, filePath, remoteTempPath);
-        var remoteFilePath = path.join(remoteTempPath, "ruby-code.rb");
+        var remoteFilePath = path.join(remoteTempPath, fileName);
         var rubyRemoteCommand = rubyCommand + rubyParams + " " + remoteFilePath;
 
         log.info(_("Executing Ruby code"));
