@@ -1,0 +1,43 @@
+#: init/ruby-service.js
+msgid "Run Ruby Code"
+msgstr "Ejecutar código Ruby"
+
+#: init/ruby-service.js
+msgid "Ruby execute code"
+msgstr "Ejecución de código Ruby"
+
+#: init/ruby-service.js
+msgid "Ruby ship file"
+msgstr "Envío de archivo Ruby"
+
+#: init/ruby-service.js
+msgid "Executing ruby code"
+msgstr "Ejecutando código de Ruby"
+
+#: init/ruby-service.js
+msgid "Ruby remove file"
+msgstr "Eliminar archivo de Ruby"
+
+#: init/ruby-service.js
+msgid "Ruby code executed: "
+msgstr "Código de Ruby ejecutado: "
+
+#: public/form/ruby-form.js
+msgid "Server"
+msgstr "Servidor"
+
+#: public/form/ruby-form.js
+msgid "Ruby path"
+msgstr "Ruta de Ruby"
+
+#: public/form/ruby-form.js
+msgid "Ruby parameters"
+msgstr "Parámetros de Ruby"
+
+#: public/form/ruby-form.js
+msgid "Code Editor"
+msgstr "Editor de código"
+
+#: public/form/ruby-form.js
+msgid "Remote temp path"
+msgstr "Ruta temporal remota"
