@@ -53,9 +53,6 @@ Configuration example:
 
       Server: ruby_server
       Ruby path: /sytem/ruby.sh
-      Ruby parameters: -d
+      Ruby parameters:
       Remote temp path: /tmp
-      Code Editor: parents, babies = (1, 1)
-                        while babies < 100:
-                        print 'This generation has {0} babies'.format(babies)
-                        parents, babies = (babies, parents + babies)
+      Code Editor: print "Hello, World!\n"
