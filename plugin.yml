@@ -1,0 +1,9 @@
+name: Clarive Python Plugin
+description: The Ruby plugin will allow you to execute a Ruby code on the server of your choice in Clarive and to view its result.
+version: 1.0
+icon: https://github.com/clarive/cla-ruby-plugin/public/icon/ruby.svg
+url: https://github.com/clarive/cla-ruby-plugin
+requires:
+  - clarive_version: 6.8 <= version
+dependencies:
+  - cla-ruby-plugin
