@@ -11,6 +11,13 @@
         with_vars: 1
     });
     
+    var userTextField = Cla.ui.textField({
+        name: 'user',
+        fieldLabel: _('User'),
+        value: data.user || '',
+        allowBlank: true
+    });
+
     var rubyPathTextField = Cla.ui.textField({
         name: 'rubyPath',
         fieldLabel: _('Ruby path'),
@@ -57,6 +64,7 @@
         layout: 'form',
         items: [
             serverComboBox,
+            userTextField,
             rubyPathTextField,
             argumentsTextField,
             remoteTempPathTextField,
