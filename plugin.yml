@@ -1,7 +1,7 @@
 name: Ruby Plugin
 description: The Ruby plugin will allow you to execute a Ruby code on the server of your choice in Clarive and to view its result.
 version: 1.0
-icon: https://cdn.rawgit.com/clarive/cla-ruby-plugin/master/public/icon/ruby.svg?sanitize=true
+icon: https://cdn.jsdelivr.net/gh/clarive/cla-ruby-plugin@master/public/icon/ruby.svg?sanitize=true
 url: https://github.com/clarive/cla-ruby-plugin
 requires:
   - clarive_version: 6.8 <= version
