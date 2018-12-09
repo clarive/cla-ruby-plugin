@@ -1,6 +1,6 @@
 # Ruby Plugin
 
-<img src="https://cdn.rawgit.com/clarive/cla-ruby-plugin/master/public/icon/ruby.svg?sanitize=true" alt="Ruby Plugin" title="Ruby Plugin" width="120" height="120">
+<img src="https://cdn.jsdelivr.net/gh/clarive/cla-ruby-plugin@master/public/icon/ruby.svg?sanitize=true" alt="Ruby Plugin" title="Ruby Plugin" width="120" height="120">
 
 The Ruby plugin will allow you to execute a Ruby code on the server of your choice in Clarive and to view its result.
 
